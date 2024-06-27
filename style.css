@@ -1,5 +1,15 @@
-body{
-    background-color: bisque;
+body, html{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.app{
+    background-color: #FBEEE5;
+    width: 100vw;
+    height: 100vh;
 }
 .header_title{
     background-color: #abff78;
@@ -7,4 +17,85 @@ body{
 .guava_icon{
     width: 40px;
     height: 40px;
+}
+.container_icon_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.ultimos_registros_container{
+    text-align: center;
+}
+.registros_cards_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.registros_cards{
+    border: 1px solid black;
+    border-radius: 30px;
+    justify-content: center;
+}
+.registro_nome{
+    font-size: 10px;
+    font-weight: bold;
+    height: 10px;
+    margin: 5px;
+    line-height: 1;
+}
+.receita{
+    background-color: #D0FEC9;
+    border-color: #1ABC00;
+}
+.despesa{
+    background-color: #FFD6D6;
+    border-color: #BC0000;
+}
+
+.overview_mes_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.arrow_nav_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.rotate180{
+    rotate: 180deg;
+}
+.metas_container{
+    border: 1px solid black;
+    text-align: center;
+
+}
+.metas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button_container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    margin-top: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 15px;
+    height: 7vh;
+}
+.receita_button_container{
+    background-color: #abff78;
+    border: 1px solid #1ABC00 ;
+}
+.despesa_button_container{
+    background-color: #FFD6D6;
+    border: 1px solid #BC0000 ;
+    
 }
